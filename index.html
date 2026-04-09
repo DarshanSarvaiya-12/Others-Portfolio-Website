@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Divyesh Rathod | Content Creator</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <style>
+        :root {
+            --primary: #ffcc00; /* King Gold */
+            --bg-dark: #000000;
+            --card-bg: #1a1a1a;
+            --text-light: #ffffff;
+            --text-dim: #b0b0b0;
+            --whatsapp: #25D366;
+            --insta: #E4405F;
+            --email: #0078FF;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            background-color: var(--bg-dark);
+            color: var(--text-light);
+            overflow-x: hidden;
+            line-height: 1.6;
+        }
+
+        /* --- Header Section --- */
+        header {
+            text-align: center;
+            padding: 80px 20px 40px 20px;
+            position: relative;
+            z-index: 10;
+        }
+
+        .profile-title {
+            font-size: 3rem;
+            font-weight: 800;
+            color: var(--primary);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        .subtitle {
+            font-size: 1.2rem;
+            color: var(--text-dim);
+            margin-bottom: 20px;
+        }
+
+        /* --- Contact Icons Section --- */
+        .contact-actions {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+            padding: 40px 20px;
+            background: #0a0a0a;
+        }
+
+        .action-btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 70px;
+            height: 70px;
+            border-radius: 50%;
+            font-size: 2rem;
+            color: white;
+            text-decoration: none;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+        }
+
+        .btn-whatsapp { background-color: var(--whatsapp); }
+        .btn-insta { background-color: var(--insta); }
+        .btn-mail { background-color: var(--email); }
+        .btn-call { background-color: var(--primary); color: #000; }
+
+        /* --- Info Grid --- */
+        .info-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+            padding: 20px;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        .card {
+            background: var(--card-bg);
+            padding: 30px;
+            border-radius: 15px;
+            text-align: center;
+            border-bottom: 3px solid var(--primary);
+        }
+
+        .card i {
+            font-size: 2.5rem;
+            color: var(--primary);
+            margin-bottom: 15px;
+        }
+
+        /* --- About Section --- */
+        .section {
+            padding: 60px 20px;
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .tag {
+            background: var(--primary);
+            color: black;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-weight: bold;
+            font-size: 0.9rem;
+            display: inline-block;
+            margin-bottom: 15px;
+        }
+
+        /* --- Skills Section --- */
+        .skills-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10px;
+            margin-top: 20px;
+        }
+
+        .skill-item {
+            border: 1px solid var(--primary);
+            padding: 8px 20px;
+            border-radius: 5px;
+            color: var(--text-light);
+        }
+
+        /* --- Quote Section --- */
+        .quote-box {
+            padding: 60px 20px;
+            background: #111;
+            text-align: center;
+        }
+
+        /* --- Footer --- */
+        footer {
+            background: #000;
+            padding: 60px 40px;
+            text-align: center;
+            border-top: 1px solid #222;
+        }
+
+        /* Mobile Adjustments */
+        @media (max-width: 768px) {
+            .profile-title { font-size: 2.2rem; }
+            .action-btn { width: 60px; height: 60px; font-size: 1.8rem; }
+            header { padding-top: 50px; }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <span class="tag">FRESHER AVAILABLE FOR HIRE</span>
+        <h1 class="profile-title">Divyesh Rathod</h1>
+        <p class="subtitle">Social Media Reels Creator | Video Editor | Creative Storyteller</p>
+    </header>
+
+    <div class="contact-actions">
+        <a href="https://wa.me/919106907343" class="action-btn btn-whatsapp" title="WhatsApp Me">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+        <a href="https://instagram.com/__.mr._king_08" target="_blank" class="action-btn btn-insta" title="Instagram Profile">
+            <i class="fab fa-instagram"></i>
+        </a>
+        <a href="mailto:divyeshrathod325@gmail.com" class="action-btn btn-mail" title="Email Me">
+            <i class="fas fa-envelope"></i>
+        </a>
+        <a href="tel:+919106907343" class="action-btn btn-call" title="Call Me">
+            <i class="fas fa-phone"></i>
+        </a>
+    </div>
+
+    <div class="info-grid">
+        <div class="card">
+            <i class="fas fa-graduation-cap"></i>
+            <h3>Education</h3>
+            <p>12th Pass Graduate</p>
+        </div>
+        <div class="card">
+            <i class="fas fa-video"></i>
+            <h3>Niche</h3>
+            <p>Short Form Content & Reels</p>
+        </div>
+        <div class="card">
+            <i class="fas fa-briefcase"></i>
+            <h3>Goal</h3>
+            <p>Seeking a Job in Media/Creative Arts</p>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>About Me</h2>
+        <p style="margin-top: 20px; color: var(--text-dim);">
+            I am a passionate creative from the new generation. I specialize in crafting engaging Instagram reels that capture attention and drive engagement. Despite being a fresher, I have spent significant time mastering mobile editing and trend analysis.
+        </p>
+        
+        <h3 style="margin-top: 40px;">My Skills</h3>
+        <div class="skills-list">
+            <div class="skill-item">Video Editing</div>
+            <div class="skill-item">Content Planning</div>
+            <div class="skill-item">Trend Research</div>
+            <div class="skill-item">Mobile Photography</div>
+            <div class="skill-item">Social Media Management</div>
+        </div>
+    </div>
+
+    <div class="quote-box">
+        <i class="fas fa-quote-left" style="font-size: 2rem; color: var(--primary); margin-bottom: 20px; display: block;"></i>
+        <h2 style="margin-bottom: 10px;">"Creativity is the king of all skills."</h2>
+        <p style="color: var(--text-dim);">I believe in quality over quantity. Every frame I edit is designed to tell a story.</p>
+    </div>
+
+    <footer>
+        <h2>Let's Work Together</h2>
+        <p style="color: var(--text-dim); margin-bottom: 20px;">Contact me via the icons above for fast response.</p>
+        <p style="font-size: 0.8rem; color: #555;">© 2024 Divyesh Rathod Portfolio. All rights reserved.</p>
+    </footer>
+
+    <script>
+        // Static scroll logic (No animations)
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                if(this.getAttribute('href') !== '#') {
+                    e.preventDefault();
+                    document.querySelector(this.getAttribute('href')).scrollIntoView();
+                }
+            });
+        });
+
+        console.log("Divyesh Rathod's Portfolio Loaded.");
+    </script>
+</body>
+</html>
